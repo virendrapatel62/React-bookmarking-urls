@@ -1,10 +1,10 @@
-import './App.css';
-import Layout from './components/Layout';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Bookmarkable from './components/Bookmarkable';
-import NotFound from './components/Not-found';
-import 'react-tabs/style/react-tabs.css';
-import NonBookmarkable from './components/Non-bookmarkable';
+import "./App.css";
+import Layout from "./components/Layout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Bookmarkable from "./components/Bookmarkable";
+import NotFound from "./components/Not-found";
+import "react-tabs/style/react-tabs.css";
+import NonBookmarkable from "./components/Non-bookmarkable";
 function App() {
   return (
     <BrowserRouter>
